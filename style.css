@@ -1,0 +1,13 @@
+.gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+    height: 35vh;
+}
+
+.XO {
+    width: 11vw;
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+}
