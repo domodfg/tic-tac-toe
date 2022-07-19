@@ -107,7 +107,6 @@ const displayController = (() => {
   return { displayArray, clearBoard };
 })();
 
-const play = document.querySelector(".play");
+displayController.displayArray();
 const reset = document.querySelector(".reset");
-play.addEventListener("click", displayController.displayArray);
 reset.addEventListener("click", displayController.clearBoard);
